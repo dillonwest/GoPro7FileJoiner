@@ -1,6 +1,4 @@
-# GoPro7FileJoiner
-Use this tool to automatedly join your segmented 4gb GoPro files losslessly using FFMPEG
-
+﻿
 This application is a "helper".  It determines which mp4 files are in the "series", and creates the necessary batch and input files to use ffmpeg to join the files together.
 The output of this application is a batch script that will feed ffmpeg the pertinent information to join all of your files.
 
