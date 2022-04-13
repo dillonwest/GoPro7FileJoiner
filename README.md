@@ -6,6 +6,8 @@ The output of this application is a batch script that will feed ffmpeg the perti
 
 It has been tested with the file names of gopro7 and gopro8.
 
+Requires Visual Studio 2019+ and .NET Core 3.1+
+
 #1a, download FFMPEG https://www.gyan.dev/ffmpeg/builds/
 #1b, you need to have FFMPEG installed (put it in a known directory) and add the FFMPEG "bin" to your windows "PATH" variable
 
@@ -18,4 +20,3 @@ It has been tested with the file names of gopro7 and gopro8.
 
 #5, the joined files will be on the "gopro7FileJoiner-<GUID>\output" directory.
 #5a, original files are unchanged.
-
